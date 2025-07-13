@@ -1,0 +1,35 @@
+* {
+    font-family: sans-serif;
+}
+
+#sidebar {
+    width: 20%;
+    height: 97vh;
+    background-color: lightgreen;
+    border-radius: 4px;
+    text-align: center;
+    overflow: auto;
+    scrollbar-width: none;
+    text-align: center;
+}
+
+#sidebar::-webkit-scrollbar {
+    display: none;
+}
+
+#maincontent {
+    width: 80%;
+    height: 97vh;
+    background-color: lightgreen;
+    margin-left: 10px;
+    border-radius: 4px;
+    overflow: auto;
+}
+
+#info {
+    position: absolute;
+    pointer-events: none;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(112, 112, 112);
+}
